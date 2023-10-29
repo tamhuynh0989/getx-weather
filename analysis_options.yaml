@@ -1,0 +1,147 @@
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.gr.dart"
+    - "**/*.config.dart"
+    - "**/*.freezed.dart"
+    - "**/generated_plugin_registrant.dart"
+    - "lib/data/remotes/base/interceptor/logging_interceptor.dart"
+    - "lib/utils/event_bus/event_bus.dart"
+    - "lib/presentation/components/filter/widget/selection_animate_widget.dart"
+    - "lib/presentation/components/input/readmore.dart"
+    - "lib/presentation/components/route_pageview/route_pageview.dart"
+    - "lib/presentation/components/refresh_indicator/**"
+
+  errors:
+    invalid_annotation_target: ignore
+    always_declare_return_types: warning
+    always_put_control_body_on_new_line: warning
+    always_use_package_imports: warning
+    avoid_bool_literals_in_conditional_expressions: warning
+    avoid_catches_without_on_clauses: warning
+    avoid_catching_errors: warning
+    avoid_double_and_int_checks: warning
+    #    avoid_dynamic_calls: warning
+    avoid_field_initializers_in_const_classes: warning
+    avoid_implementing_value_types: warning
+    avoid_js_rounded_ints: warning
+    avoid_multiple_declarations_per_line: warning
+    #    avoid_positional_boolean_parameters: warning
+    avoid_private_typedef_functions: warning
+    avoid_returning_null: warning
+    avoid_returning_this: warning
+    avoid_setters_without_getters: warning
+    avoid_slow_async_io: warning
+    avoid_type_to_string: warning
+    avoid_unused_constructor_parameters: warning
+    avoid_void_async: warning
+    avoid_web_libraries_in_flutter: warning
+    cascade_invocations: warning
+    cast_nullable_to_non_nullable: warning
+    curly_braces_in_flow_control_structures: warning
+    deprecated_consistency: warning
+    #    directives_ordering: warning
+    flutter_style_todos: warning
+    invariant_booleans: warning
+    join_return_with_assignment: warning
+    lines_longer_than_80_chars: warning
+    literal_only_boolean_expressions: warning
+    no_adjacent_strings_in_list: warning
+    no_default_cases: warning
+    null_check_on_nullable_type_parameter: warning
+    omit_local_variable_types: ignore
+    only_throw_errors: warning
+    parameter_assignments: warning
+    prefer_asserts_in_initializer_lists: warning
+    prefer_final_in_for_each: warning
+    prefer_final_locals: warning
+    prefer_foreach: warning
+    prefer_int_literals: warning
+    prefer_interpolation_to_compose_strings: warning
+    sort_child_properties_last: warning
+    sort_constructors_first: warning
+    sort_pub_dependencies: warning
+    sort_unnamed_constructors_first: warning
+    tighten_type_of_initializing_formals: warning
+    type_annotate_public_apis: warning
+    unawaited_futures: warning
+    unnecessary_await_in_return: warning
+    unnecessary_lambdas: warning
+    unnecessary_null_aware_assignments: warning
+    unnecessary_null_checks: warning
+    unnecessary_nullable_for_final_variable_declarations: warning
+    unnecessary_parenthesis: warning
+    use_is_even_rather_than_modulo: warning
+    use_late_for_private_fields_and_variables: warning
+    use_named_constants: warning
+    use_setters_to_change_properties: warning
+    use_string_buffers: warning
+    use_to_and_as_if_applicable: warning
+    deprecated_member_use_from_same_package: info
+    deprecated_member_use: info
+
+linter:
+  rules:
+    - always_declare_return_types
+    - always_put_control_body_on_new_line
+    - always_use_package_imports
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_catches_without_on_clauses
+    - avoid_catching_errors
+    - avoid_double_and_int_checks
+    #    - avoid_dynamic_calls
+    - avoid_field_initializers_in_const_classes
+    - avoid_implementing_value_types
+    - avoid_js_rounded_ints
+    - avoid_multiple_declarations_per_line
+    #    - avoid_positional_boolean_parameters
+    - avoid_private_typedef_functions
+    - avoid_returning_null
+    - avoid_returning_this
+    - avoid_setters_without_getters
+    - avoid_slow_async_io
+    - avoid_type_to_string
+    - avoid_unused_constructor_parameters
+    - avoid_void_async
+    - avoid_web_libraries_in_flutter
+    - cascade_invocations
+    - cast_nullable_to_non_nullable
+    - curly_braces_in_flow_control_structures
+    - deprecated_consistency
+    #    - directives_ordering
+    - flutter_style_todos
+    - invariant_booleans
+    - join_return_with_assignment
+    - lines_longer_than_80_chars
+    - literal_only_boolean_expressions
+    - no_adjacent_strings_in_list
+    - no_default_cases
+    - null_check_on_nullable_type_parameter
+    - omit_local_variable_types
+    - only_throw_errors
+    - parameter_assignments
+    - prefer_asserts_in_initializer_lists
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_foreach
+    - prefer_int_literals
+    - prefer_interpolation_to_compose_strings
+    - sort_child_properties_last
+    - sort_constructors_first
+    - sort_pub_dependencies
+    - sort_unnamed_constructors_first
+    - tighten_type_of_initializing_formals
+    - type_annotate_public_apis
+    - unawaited_futures
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - unnecessary_null_aware_assignments
+    - unnecessary_null_checks
+    - unnecessary_nullable_for_final_variable_declarations
+    - unnecessary_parenthesis
+    - use_is_even_rather_than_modulo
+    - use_late_for_private_fields_and_variables
+    - use_named_constants
+    - use_setters_to_change_properties
+    - use_string_buffers
+    - use_to_and_as_if_applicable
